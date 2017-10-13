@@ -1,140 +1,113 @@
+/* style.css */
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: lighter;
-  font-size: 60px;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #8F2425;
-}
+  background: rgb(240,240,230);
+    /*text-align: center;*/
+  }
 
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
-  color: white;
-}
 
 #banner{
   text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
+  background-image: url("https://static.pexels.com/photos/185764/pexels-photo-185764.jpeg");
   background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
-  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #FABC3C;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
 
 }
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
-
 #banner h1 {
-  color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
+  color: #FABC3C;
+  font-family: 'Sanchez', serif;
+  font-size: 40px;
 }
 #banner p {
-  color: rgb(230,23);
-  opacity: 0.8;
-  font-size: 25px;
+  color: rgb(255,255,254);
+  opacity: 1.0;
+  font-size: 30px;
   font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
+  font-family: 'Sanchez', serif;
 }
+
+
+
 #footer{
   padding: 30px;
   background: rgb(30, 30, 30);
-  color: lightgrey;
+  color: #FABC3C;
+  font-family: 'Sanchez', serif;
+  
 }
 .card{
-  padding: 70px 30px;
-  font-weight: lighter;
+  padding: 50px;
+  font-weight: normal;
+}
+
+.card{
   text-align: center;
 }
 
-.icon-size {
-  font-size: 50px;
+#attrape_coeur{
+font-family: 'Source Sans Pro', sans-serif;
 }
 
-.form-margin {
-  margin-top: 20px;
+#martin_eden{
+font-family: 'Vidaloka', serif;
 }
 
-.btn-red {
-  color: white;
-  background-color: #D23333;
+#bonjour_tristesse{
+font-family: 'Copse', serif;
 }
 
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
+#bel_ami{
+  font-family: 'Lora', serif;
 }
 
-.cta {
-  background-color: rgb(220,220,220);
-  padding: 50px;
+#cent_ans{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#regime_sec{
+  font-family: 'Vidaloka', serif;
+}
+
+/*#club_opti{
+
+}*/
+
+#down{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer{
+  text-align: center;
 }
 
 #footer a {
-  font-size: 30px;
-}
+  color: white;
+  font-size: 50px;
 
+}
 #footer a:hover {
-  color: #D23333;
+  color: #FABC3C;
 }
 
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
+#footer a {
+  color: white;
+  font-size: 50px;
+}
+#footer a:hover {
+  color: #FABC3C;
 }
 
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
-}
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Copse', serif;
+*/
 
 
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
-}
-
-.card-list-text p {
-font-weight: lighter
-}
-
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
-}
-
-.card-list-img {
-  flex: 0 1 auto;
-}
